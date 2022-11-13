@@ -23,7 +23,7 @@
           <h1>We are launching <span>soon!</span></h1>
           <p>Subscribe and get notified</p>
         </div>
-        <form id="email-form" novalidate="true">
+        <form id="email-form" onsubmit="event.preventDefault();">
           <div class="input-wrapper">
             <input type="text" placeholder="Your email address...">
             <span class="error-message"></span>
